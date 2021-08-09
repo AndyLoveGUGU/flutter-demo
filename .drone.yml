@@ -6,3 +6,4 @@ steps:
   image: cirrusci/flutter
   commands:
   - flutter test
+  - flutter run
