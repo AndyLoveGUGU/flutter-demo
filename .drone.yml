@@ -3,6 +3,6 @@ name: testing
 
 steps:
 - name: flutter
-  image: appleboy/flutter-docker:1.2.1
+  image: cirrusci/flutter
   commands:
   - flutter test
